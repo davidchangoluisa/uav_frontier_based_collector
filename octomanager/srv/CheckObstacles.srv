@@ -1,0 +1,6 @@
+geometry_msgs/Vector3 origin
+geometry_msgs/Vector3 end
+---
+uint32 number_of_obstacles_detected
+bool success
+string msg
