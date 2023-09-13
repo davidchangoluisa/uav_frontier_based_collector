@@ -1,4 +1,4 @@
-# usa_gazebo_simulation
+# gazebo_worlds
 
 This package contain a Warehouse model with several levels of difficulty suitable for indoor exploration tests. The approximate size of the environment is 80x26x8 as shown in the figure below
 
