@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='wall_12x8'>
+    <pose>1.91467 -1.1845 0 0 -0 0</pose>
+    <link name='Wall_0'>
+      <collision name='Wall_0_Collision'>
+        <geometry>
+          <box>
+            <size>12.2 0.7 8</size>
+          </box>
+        </geometry>
+        <pose>0 0 4 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_0_Visual'>
+        <pose>0 0 4 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>12.2 0.7 8</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/CeilingTiled</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose>-0 -0.8345 0 0 -0 0</pose>
+    </link>
+    <static>1</static>
+  </model>
+</sdf>
